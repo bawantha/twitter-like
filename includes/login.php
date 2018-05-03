@@ -19,7 +19,7 @@
     }else{
       $error="Please enter username and password";
 
-  }
+  }}
   
 ?>
 
@@ -38,7 +38,7 @@
     </ul>
     <?php
      
-     if(isset(($error))){
+     if(isset($error)){
          echo '	
          <li class="error-li">
           <div class="span-fp-error">'.$error.'</div>
